@@ -273,6 +273,10 @@ p {
     height: calc(80% - 50px);
   }
 
+  .mountain-img {
+    position: relative;
+  }
+
   .middle {
     width: 77%;
   }
