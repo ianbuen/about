@@ -232,3 +232,60 @@ p {
     width: 35%;
   }
 }
+
+@media screen and (orientation: landscape) and (max-width: 980px) {
+  .top-cloud {
+    top: 0%;
+    left: 80%;
+    transform: scale(0.75);
+  }
+
+  .middle-cloud {
+    top: 24%;
+    right: 80%;
+    transform: scale(0.75);
+  }
+
+  .bottom-cloud {
+    top: 42%;
+    left: 64%;
+    transform: scale(0.75);
+  }
+
+  h1 {
+    font-size: 4.625rem;
+  }
+
+  h2 {
+    font-size: 2.25rem;
+  }
+
+  hr {
+    width: 15vw;
+  }
+
+  .header {
+    padding-top: 50px;
+  }
+
+  .mtn-container {
+    height: calc(80% - 50px);
+  }
+
+  .middle {
+    width: 77%;
+  }
+
+  .contact-me {
+    width: 70%;
+  }
+
+  .skill-row, .skills, .contact-me {
+    margin: 75px auto;
+  }
+
+  .profile {
+    margin: 50px auto;
+    width: 70%;
+  }
+}
