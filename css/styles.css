@@ -165,7 +165,7 @@ p {
 }
 
 .skill-row {
-  margin: 150px auto;
+  margin: 100px auto;
   text-align: left;
 }
 
@@ -188,7 +188,7 @@ p {
 
 @media screen and (orientation: portrait) {
   .top {
-    height: 60vh;
+    height: 50vh;
   }
 
   .header {
@@ -216,8 +216,8 @@ p {
   }
 
   .profile {
-    width: 75%;
-    margin: 70px;
+    width: 80%;
+    margin: 100px auto;
   }
 
   .profile-img {
