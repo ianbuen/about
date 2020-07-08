@@ -105,6 +105,7 @@ p {
   background-image: linear-gradient(to bottom, #576574, #222f3e);
   border-radius: 10px;
   color: white;
+  font-weight: bold;
   margin-top: 50px;
   padding: 15px 25px;
   text-decoration: none;
@@ -150,12 +151,6 @@ p {
   width: 200px;
 }
 
-.mtn-container {
-  width: 100%;
-  position: relative;
-  height: calc(80% - 100px);
-}
-
 .mountain-img {
   position: absolute;
   width: 100%;
@@ -187,6 +182,10 @@ p {
 }
 
 @media screen and (orientation: portrait) {
+  hr {
+    width: 15vw;
+  }
+
   .top {
     height: 50vh;
   }
@@ -207,16 +206,12 @@ p {
     top: 55%;
   }
 
-  .mtn-container {
-    height: calc(80% - 200px);
-  }
-
   .middle {
-    width: 70%;
+    width: 80%;
   }
 
   .profile {
-    width: 80%;
+    width: 70%;
     margin: 100px auto;
   }
 
@@ -230,6 +225,11 @@ p {
 
   .hw-img {
     width: 35%;
+  }
+
+  .btn {
+    font-size: 2.5rem;
+    padding: 25px 35px;
   }
 }
 
@@ -251,7 +251,7 @@ p {
   }
 
   .bottom-cloud {
-    top: 42%;
+    top: 37%;
     left: 64%;
     transform: scale(0.75);
   }
@@ -269,11 +269,8 @@ p {
   }
 
   .header {
-    padding-top: 50px;
-  }
-
-  .mtn-container {
-    height: calc(80% - 50px);
+    padding-top: 25px;
+    height: 40%;
   }
 
   .middle {
