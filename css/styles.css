@@ -182,7 +182,7 @@ p {
   padding: 20px 0;
 }
 
-@media only screen and (max-width: 768px) {
+@media screen and (orientation: portrait) {
   .top {
     height: 60vh;
   }
