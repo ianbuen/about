@@ -233,7 +233,7 @@ p {
   }
 }
 
-@media screen and (orientation: landscape) and (max-width: 980px) {
+@media screen and (orientation: landscape) and (max-width: 1024px) {
   .top-cloud {
     top: 0%;
     left: 80%;
@@ -266,6 +266,7 @@ p {
 
   .header {
     padding-top: 50px;
+    height: 35%;
   }
 
   .mtn-container {
